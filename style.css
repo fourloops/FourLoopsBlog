@@ -1,3 +1,8 @@
+html,body{
+  margin:0;
+  padding:0;
+}
+
 .grid-container {
     width: 100%;
     max-width: 1200px;
@@ -52,29 +57,34 @@ h1 {
 }
 nav{
   box-sizing: border-box;
-  width:75%;
+  width:100%;
   position:fixed;
   top:0;
-  left:15%;
-  margin-bottom: 0;
-  height:50px;
-  text-align: center;
+  margin: 0;
+  height:10%;
+  background-color: #74AFAD;
+  border-radius:0 0 2% 2%;
+  font-family: "Josefin Sans";
+  z-index:2;
 }
-nav a{
+nav ul a{
   text-decoration:none;
-  font-size:18px;
-  color:black;
+  font-size:40px;
+  color:white;
 }
 
 ul{
   list-style-type: none;
+  box-sizing: border-box;
+  padding-top: 5%;
 }
 nav ul li{
   display:inline;
-  padding: 10px 15% 10px 0;
+  box-sizing: border-box;
+  padding: 20px 2.5% 10px 2.5%;
 }
 #main{
-  margin-top: 60px;
+  margin-top: 20%;
   text-align:center;
 }
 
