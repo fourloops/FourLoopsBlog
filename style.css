@@ -77,3 +77,18 @@ nav ul li{
   margin-top: 60px;
   text-align:center;
 }
+
+.picleft {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    float: right;
+}
+
+.picright {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    float: left;
+
+}
