@@ -1,6 +1,7 @@
-html,body{
+html,body,a{
   margin:0;
   padding:0;
+  font-family: "Josefin Sans"
 }
 
 .grid-container {
@@ -53,38 +54,44 @@ h1 {
     color: black;
     min-height: 150px;
 }
+a{
+    text-decoration:none;
+    color: black;
+}
 nav{
-  box-sizing: border-box;
-  width:100%;
-  position:fixed;
-  top:0;
-  text-align: center;
-  background-color: #74AFAD;
-  border-radius:0 0 2% 2%;
-  font-family: "Josefin Sans";
-  z-index:2;
+    box-sizing: border-box;
+    width:100%;
+    position:fixed;
+    top:0;
+    text-align: center;
+    background-color: #74AFAD;
+    border-radius:0 0 2% 2%;
+    z-index:2;
 }
 nav ul a{
-  text-decoration:none;
-  font-size:40px;
-  color:white;
+    font-decoration: none;
+    font-size:40px;
+    color:white;
 }
 
 ul{
-  list-style-type: none;
-  box-sizing: border-box;
-  padding-top: 10px;
+    list-style-type: none;
+    box-sizing: border-box;
+    padding-top: 10px;
 }
 nav ul li{
-  display:inline;
-  box-sizing: border-box;
-  padding: 10px 2.5% 10px 2.5%;
+    display:inline;
+    box-sizing: border-box;
+    padding: 10px 2.5% 10px 2.5%;
 }
 #main{
-  margin-top: 150px;
-  text-align:center;
+    margin-top: 120px;
+    text-align:center;
 }
 
+.what{
+    font-size: 20px;
+}
 
 [class*='pic-'] {
     display: block;
