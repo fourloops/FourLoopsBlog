@@ -77,3 +77,39 @@ nav ul li{
   margin-top: 60px;
   text-align:center;
 }
+
+
+[class*='pic-'] {
+    float: left;
+    min-height: 1px;
+    width: 25%;
+    padding: 10px;
+
+}
+.picleft {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    float: right;
+}
+
+.picright {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    float: left;
+}
+
+.text {
+    opacity: 0;
+    background: #FFF;
+}
+
+.hovpic:hover .text {
+    opacity: 0.6;
+    text-align: justify;
+    color: #000000;
+    font-size:20px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
