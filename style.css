@@ -18,7 +18,7 @@
     float: left;
     min-height: 1px;
     width: 25%;
-    padding: 10px;
+    padding: 20px;
 
 }
 
@@ -80,36 +80,56 @@ nav ul li{
 
 
 [class*='pic-'] {
-    float: left;
-    min-height: 1px;
-    width: 25%;
-    padding: 10px;
-
-}
-.picleft {
     display: block;
     margin: auto;
-    padding: 20px;
+
+}
+.pic-left1 {
+    width: 300px;
+    height: 300px;
     float: right;
+    background: url(assets/panda.jpg) no-repeat;
 }
 
-.picright {
-    display: block;
-    margin: auto;
-    padding: 20px;
+.pic-right2 {
+    width: 300px;
+    height: 300px;
     float: left;
+    background: url(assets/panda.jpg) no-repeat;
+}
+
+.pic-left3 {
+    width: 300px;
+    height: 300px;
+    float: right;
+    background: url(assets/panda.jpg) no-repeat;
+}
+
+.pic-right4 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    background: url(assets/panda.jpg) no-repeat;
 }
 
 .text {
     opacity: 0;
     background: #FFF;
+    width: 300px;
+    height: 300px;
 }
 
-.hovpic:hover .text {
-    opacity: 0.6;
+[class*='pic-']:hover .text {
+    opacity: 0.7;
     text-align: justify;
     color: #000000;
-    font-size:20px;
+    font-size:70px;
     font-weight: 700;
     font-family: sans-serif;
+}
+
+.names {
+    position:relative;
+    left: 80px;
+    top: 80px;
 }
