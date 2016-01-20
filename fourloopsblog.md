@@ -38,33 +38,33 @@ Will include:
 
 * Image related to our group
 
-<p align="center"><img alt="wireframeHome" src="assets/home.jpg" width= 25%></p>
+<p align="center"><img alt="wireframeHome" src="assets/home.jpg"></p>
 <p align="center">Home page wireframe</p>
 
 #### Fourloops
 
 Four pictures which each link to our profiles
 
-<p align="center"><img alt="wireframe4Loops" src="assets/fourloops.jpg" width= 25%></p>
+<p align="center"><img alt="wireframe4Loops" src="assets/fourloops.jpg"></p>
 <p align="center">fourloops page wireframe</p>
 
 ###### Profiles
 
 We intend to standardize the profiles to a template and only have a different image, text and links.
 
-<p align="center"><img alt="wireframeProfiles" src="assets/profile.jpg" width= 25%></p>
+<p align="center"><img alt="wireframeProfiles" src="assets/profile.jpg"></p>
 <p align="center">Profile page wireframe</p>
 
 #### Blog Archive
 
 Four clickable images called Month 1, Month 2, Month 3, Month 4, which link to four clickable weeks and these link to the blog post.
 
-<p align="center"><img alt="wireframeArchive" src="assets/archive.jpg" width=25%></p>
+<p align="center"><img alt="wireframeArchive" src="assets/archive.jpg"></p>
 <p align="center">Archive wireframe</p>
 
 #### Contact
 
 A form with input text-boxes for your name, email, and further details. Between email and further details we would like a drop down menu of the reason for contacting, with options of: designing a prototype, making an mvp or other enquiries.
 
-<p align="center"><img alt="wireframeContact" src="assets/contact.jpg" width=25%"></p>
+<p align="center"><img alt="wireframeContact" src="assets/contact.jpg"></p>
 <p align="center">Contact page wireframe</p>
