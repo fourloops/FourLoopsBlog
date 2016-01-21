@@ -170,6 +170,26 @@ nav ul li {
     border: 5px solid #74AFAD;
 }
 
+.pic-left9 {
+    float: right;
+    background: url(assets/months1-coffee.jpg) no-repeat;
+}
+
+.pic-right10 {
+    float: left;
+    background: url(assets/months2-computer.jpg) no-repeat;
+}
+
+.pic-left11 {
+    float: right;
+    background: url(assets/months3-chess.png) no-repeat;
+}
+
+.pic-right12 {
+    float: left;
+    background: url(assets/months4-wires.jpg) no-repeat;
+}
+
 .text {
     opacity: 0;
     background: #FFF;
