@@ -3,27 +3,70 @@
     <head>
         <meta charset="utf-8">
         <title>Contact</title>
+        <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+        <link rel="stylesheet" href="contact.css" media="screen" charset="utf-8">
     </head>
     <body>
-        <form class="main">
-            <div class="name">
-                Name: <textarea placeholder="Your name" name="name" rows="1" cols="20"></textarea>
-            </div>
-            <div class="email">
-                Email: <textarea placeholder="Your email" name="email" rows="1" cols="20"></textarea>
-            </div>
-            <div class="dropdown">
-                Reason for contacting: <select class="dropdown" name="reason">
-                    <option value="prototype">designing a prototype</option>
-                    <option value="mvp">making an mvp</option>
-                    <option value="other">other enquiries</option>
-                </select>
-            </div>
-            <div class="details">
-                Further details: <textarea placeholder="Any additional information" name="further details" rows="8" cols="40"></textarea>
-            </div>
+        <nav>
+            <ul>
+                <a href="index.html"><li>HOME</li></a>
+                <a href="fourloops/fourloops.html"><li>FOURLOOPS</li></a>
+                <a href="archive.html"><li>ARCHIVE</li></a>
+                <a href="contact.html"><li>CONTACT</li></a>
+            </ul>
+        </nav>
+        <section id="main">
+            <form>
+                <table align="center">
+                    <tr id="name" class="felement">
+                        <td>
+                            Name:
+                        </td>
+                        <td>
+                            <textarea placeholder="Your name" name="name" rows="2" cols="40"></textarea>
+                        </td>
+                    </tr>
+                    <tr id="email" class="felement">
+                        <td>
+                            Email:
+                        </td>
+                        <td >
+                            <textarea placeholder="Your email" name="email" rows="2" cols="40"></textarea>
+                        </td>
+                    </tr>
+                    <tr id="reason" class="felement">
+                        <td>
+                            Reason for contacting:
+                        </td>
+                        <td>
+                            <select id="dropdown" name="reason" rows="2" cols="40">
+                                <option value="prototype" style="font-family: 'Comic Sans MS';">designing a prototype</option>
+                                <option value="mvp" style="font-family: 'Comic Sans';">making an mvp</option>
+                                <option value="other" style="font-family: 'Comic Sans';">other enquiries</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr id="details" class="felement">
+                        <td>
+                            Further details:
+                        </td>
+                        <td>
+                            <textarea placeholder="Any additional information" name="further details" rows="8" cols="40"></textarea>
+                        </td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td>
+
+                        </td>
+                        <td align="center">
+                            <button type="button" name="button">Submit</button>
+                        </td>
+                    </tr>
+                </table>
             </form>
-            <button type="button" name="button">Sumbit</button>
+
+        </section>
     </body>
 </html>
