@@ -310,3 +310,9 @@ nav ul li {
 .textdrop {
     background-color:#F1F7F6;
 }
+
+#bloghead {
+    font-size: 40px;
+    position: relative;
+    left: 81px;
+}
