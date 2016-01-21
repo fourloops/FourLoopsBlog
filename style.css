@@ -121,34 +121,53 @@ nav ul li {
 [class*='pic-'] {
     display: block;
     margin: auto;
+    width: 300px;
+    height: 300px;
 
 }
 .pic-left1 {
-    width: 300px;
-    height: 300px;
     float: right;
     background: url(assets/panda.jpg) no-repeat;
 }
 
 .pic-right2 {
-    width: 300px;
-    height: 300px;
     float: left;
     background: url(assets/panda.jpg) no-repeat;
 }
 
 .pic-left3 {
-    width: 300px;
-    height: 300px;
     float: right;
     background: url(assets/panda.jpg) no-repeat;
 }
 
 .pic-right4 {
-    width: 300px;
-    height: 300px;
     float: left;
     background: url(assets/panda.jpg) no-repeat;
+}
+
+.pic-left5 {
+    float: right;
+    background: url(assets/1-gorilla.jpg) no-repeat;
+    border: 5px solid #74AFAD;
+}
+
+.pic-right6 {
+    float: left;
+    background: url(assets/2-ape.jpg) no-repeat;
+    border: 5px solid #74AFAD;
+
+}
+
+.pic-left7 {
+    float: right;
+    background: url(assets/3-caveman.jpg) no-repeat;
+    border: 5px solid #74AFAD;
+}
+
+.pic-right8 {
+    float: left;
+    background: url(assets/4-computer.jpg) no-repeat;
+    border: 5px solid #74AFAD;
 }
 
 .text {
@@ -156,9 +175,29 @@ nav ul li {
     background: #FFF;
     width: 300px;
     height: 300px;
+    position: relative;
+    right: 5px;
+    bottom: 5px;
+
+}
+.textFour {
+    opacity: 0;
+    background: #FFF;
+    width: 300px;
+    height: 300px;
+
 }
 
 [class*='pic-']:hover .text {
+    opacity: 0.7;
+    text-align: justify;
+    color: #000000;
+    font-size:70px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+[class*='pic-']:hover .textFour {
     opacity: 0.7;
     text-align: justify;
     color: #000000;
@@ -171,6 +210,12 @@ nav ul li {
     position:relative;
     left: 80px;
     top: 80px;
+}
+
+.month {
+    position:relative;
+    left:20px;
+    top:100px;
 }
 
 .profImg {
