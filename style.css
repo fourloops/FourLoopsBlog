@@ -249,3 +249,37 @@ nav ul li {
     border-radius: 10px;
     padding: 15px 15px 15px 15px;
 }
+
+.contacts img:hover {
+  opacity: 1;
+}
+
+.contacts img {
+  width: 36px;
+  opacity: 0.7;
+  border-radius: 25px;
+}
+
+.contacts li{
+  display: table-footer-group;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.contacts br{
+  size: 20px;
+}
+
+.contacts ul{
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  -webkit-filter: grayscale(1);
+  padding: 0px 10px 0px 0px;
+}
+
+#twitter {
+    width: 43px;
+    position: relative;
+    right: 4px;
+}
