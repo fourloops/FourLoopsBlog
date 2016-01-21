@@ -316,3 +316,7 @@ nav ul li {
     position: relative;
     left: 81px;
 }
+#founders {
+    border-radius: 10px;
+    -webkit-filter: grayscale(1);
+}
