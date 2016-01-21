@@ -43,12 +43,13 @@ option {
     border: 0;
     font-family: "Josefin Sans";
     font-size: 16px;
-    background-color: #c7dfde;
     -webkit-appearance: none;
     -moz-appearance: none;
     -o-appearance: none;
     -ms-appearance: none;
     border-radius: 0;
+    background: url(assets/arrow.png) no-repeat #c7dfde;
+    background-position: right 10px center;
 }
 select {
     height: 40px;
