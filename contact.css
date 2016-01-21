@@ -1,0 +1,45 @@
+#main {
+    text-align: left;
+}
+form {
+    margin-top: 15%;
+}
+.felement {
+    margin: 10px 0 10px 0;
+}
+
+table {
+    background-color: #74AFAD;
+    border-radius: 5%;
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 20px;
+}
+textarea {
+    background-color: #c7dfde;
+}
+td {
+    padding: 10px 100px 10px 10px;
+
+}
+option {
+    font-family:"Josefin Sans";
+}
+#dropdown {
+    width:260px;
+}
+::-webkit-input-placeholder {
+    color:    #000000;
+}
+:-moz-placeholder {
+    color:    #000000;
+}
+::-moz-placeholder {
+    color:    #000000;
+}
+button {
+    font-size:20px;
+    padding: 5px 20px 5px 20px;
+    background-color: #c7dfde;
+    border-radius: 10%;
+}
