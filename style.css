@@ -4,6 +4,10 @@ html,body,a{
   font-family: "Josefin Sans"
 }
 
+body{
+    background-color: #c7dfde;
+}
+
 .grid-container {
     width: 100%;
     max-width: 1200px;
@@ -54,11 +58,11 @@ h1 {
     color: black;
     min-height: 150px;
 }
-a{
+a {
     text-decoration:none;
     color: black;
 }
-nav{
+nav {
     box-sizing: border-box;
     width:100%;
     position:fixed;
@@ -68,29 +72,50 @@ nav{
     border-radius:0 0 2% 2%;
     z-index:2;
 }
-nav ul a{
-    font-decoration: none;
+nav ul a {
     font-size:40px;
     color:white;
 }
 
-ul{
+ul {
     list-style-type: none;
     box-sizing: border-box;
     padding-top: 10px;
 }
-nav ul li{
+nav ul li {
     display:inline;
     box-sizing: border-box;
     padding: 10px 2.5% 10px 2.5%;
 }
-#main{
+#main {
     margin-top: 120px;
     text-align:center;
 }
 
-.what{
+#what {
     font-size: 20px;
+}
+
+#img-main {
+    margin:50px 0 40px 0;
+}
+#recentpost {
+    margin:50px 0 0 0;
+    left:25%;
+    text-align:left;
+}
+#recentpost h2 {
+    font-size:24px;
+    font-weight: bold;
+}
+#gotoarchive {
+    margin:-100px 0 -100px 0;
+    text-align:right;
+}
+#gotoarchive a {
+    font-weight:bold;
+    font-size:20px;
+    color: #af7476;
 }
 
 [class*='pic-'] {
