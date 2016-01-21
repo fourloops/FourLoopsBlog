@@ -8,6 +8,10 @@ form {
     margin: 10px 0 10px 0;
 }
 
+.valign{
+    vertical-align: central;
+}
+
 table {
     background-color: #74AFAD;
     border-radius: 5%;
@@ -17,25 +21,59 @@ table {
 }
 textarea {
     background-color: #c7dfde;
+    font-family: "Josefin Sans";
+    color:    #000000;
+    font-size: 16px;
+    resize: none;
+    border: 0;
+    box-sizing: border-box;
+    padding: 5px;
+    line-height: 24px;
 }
 td {
     padding: 10px 100px 10px 10px;
 
 }
 option {
+    border: 0;
     font-family:"Josefin Sans";
 }
 #dropdown {
-    width:260px;
+    width:266px;
+    border: 0;
+    font-family: "Josefin Sans";
+    font-size: 16px;
+    background-color: #c7dfde;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    border-radius: 0;
+}
+select {
+    height: 40px;
+    padding: 5px;
 }
 ::-webkit-input-placeholder {
+    font-family: "Josefin Sans";
     color:    #000000;
-}
-:-moz-placeholder {
-    color:    #000000;
+    font-size:16px;
+    line-height: 24px;
 }
 ::-moz-placeholder {
+    font-family: "Josefin Sans";
     color:    #000000;
+    font-size: 16px;
+}
+::-o-placeholder {
+    font-family: "Josefin Sans";
+    color:    #000000;
+    font-size: 16px;
+}
+::-ms-placeholder {
+    font-family: "Josefin Sans";
+    color:    #000000;
+    font-size: 16px;
 }
 button {
     font-size:20px;
