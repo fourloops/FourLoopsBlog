@@ -296,3 +296,7 @@ nav ul li {
     position: relative;
     right: 4px;
 }
+
+#sunset {
+    -webkit-filter: grayscale(1);
+}
