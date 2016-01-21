@@ -129,24 +129,28 @@ nav ul li {
     float: right;
     background: url(assets/tom.jpg) no-repeat;
     background-size: contain;
+    -webkit-filter: grayscale(1);
 }
 
 .pic-right2 {
     float: left;
     background: url(assets/owen.jpg) no-repeat;
     background-size: contain;
+    -webkit-filter: grayscale(1);
 }
 
 .pic-left3 {
     float: right;
     background: url(assets/franz.jpg) no-repeat;
     background-size: contain;
+    -webkit-filter: grayscale(1);
 }
 
 .pic-right4 {
     float: left;
     background: url(assets/sam.jpeg) no-repeat;
     background-size: contain;
+    -webkit-filter: grayscale(1);
 }
 
 .pic-left5 {
@@ -254,11 +258,12 @@ nav ul li {
     width: 400px;
     height: 400px;
     border-radius: 10px;
+    -webkit-filter: grayscale(1);
 }
 
 .profText {
     font-family: "Josefin sans", sans-serif;
-    background-color: #bababa;
+    background-color: #E3EFEE;
     border-radius: 10px;
     padding: 15px 15px 15px 15px;
 }
@@ -298,5 +303,10 @@ nav ul li {
 }
 
 #sunset {
-    -webkit-filter: grayscale(1);
+    border-radius: 10px;
+
+}
+
+.textdrop {
+    background-color:#F1F7F6;
 }
