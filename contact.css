@@ -2,7 +2,7 @@
     text-align: left;
 }
 form {
-    margin-top: 15%;
+    margin-top: 12%;
 }
 .felement {
     margin: 10px 0 10px 0;
@@ -19,7 +19,8 @@ table {
     font-weight: bold;
     font-size: 20px;
 }
-textarea {
+textarea, input.contact-input {
+    width:266px;
     background-color: #c7dfde;
     font-family: "Josefin Sans";
     color:    #000000;
@@ -80,7 +81,7 @@ select {
     font-size:16px;
     line-height: 24px;
 }
-input {
+input.submit {
     font-size:20px;
     padding: 5px 20px 5px 20px;
     background-color: #c7dfde;
