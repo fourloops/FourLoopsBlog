@@ -1,6 +1,6 @@
 ## What the blog is used for?
 
-The blog describes Fourloop's experience of Founders and Coders during our 16 weeks
+The blog describes Fourloop's experience of Founders and Coders during our 16 weeks. <a href="http://fourloops.github.io/FourLoopsBlog/">Link to gh-pages here.</a>
 
 A user can expect to read about our experiences, find out information about us on our profile page and will also be able to contact us.
 
