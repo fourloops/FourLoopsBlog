@@ -10,63 +10,6 @@ body{
     background-color: #c7dfde;
 }
 
-.grid-container {
-    width: 100%;
-    max-width: 1200px;
-}
-
-table *{
-    box-sizing: border-box;
-}
-
-.grid-container *{
-    box-sizing: border-box;
-}
-
-.row:before,
-.row:after {
-    content: '';
-    display: table;
-    clear: both;;
-}
-
-[class*='col-'] {
-    float: left;
-    min-height: 1px;
-    width: 25%;
-    padding: 20px;
-    margin: 0 auto;
-
-}
-
-.col-1 {
-    width: 25%;
-}
-.col-2 {
-    width: 50%;
-}
-.col-3 {
-    width: 75%;
-}
-.col-4 {
-    width: 100%;
-}
-
-
-[class*='col-'] > p {
-    padding: 25px;
-    font-size: 20px;
-    margin: 0;
-    text-align: justify;
-    color: black;
-    min-height: 150px;
-}
-
-
-h1 {
-  max-width:  50%;
-}
-
 /*------ Nav Bar ------*/
 a {
     text-decoration:none;
